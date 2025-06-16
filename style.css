@@ -8,18 +8,19 @@ body {
     margin: 0;
   }
   
+
   .kontainer {
     text-align: center;
   }
   
   #result {
-    background: white;
-    padding: 20px;
-    font-size: 24px;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
   }
   
   .joycon {
@@ -29,7 +30,7 @@ body {
   }
   
   .left-panel, .right-panel {
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 15px;
     display: flex;
@@ -38,7 +39,7 @@ body {
   }
   
   .left-panel {
-    background-color: #cde;
+    background-color: rgb(205, 235, 255);
   }
   
   .middle-buttons {
@@ -57,11 +58,15 @@ body {
     cursor: pointer;
     font-size: 16px;
   }
+
+  .right-panel {
+    width: 100px;
+  }
   
   .right-panel button {
-    background-color: #d9e8f5;
+    background-color: #ffafaf;
   }
   
   button:hover {
-    background-color: #ddd;
+    background-color: #c9c9c9;
   }
