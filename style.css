@@ -7,6 +7,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image:url(assets/anime-nord.png);
+    
   }
   
 
@@ -40,7 +42,7 @@ body {
   }
   
   .left-panel {
-    background-color: rgb(205, 235, 255);
+    background-color: rgb(255, 205, 205);
   }
   
   .middle-buttons {
@@ -54,7 +56,7 @@ body {
     margin: 5px;
     border: none;
     border-radius: 10px;
-    background-color: #dadada;
+    background-color: #ffffff;
     box-shadow: 2px 2px 4px #aaa;
     cursor: pointer;
     font-size: 16px;
@@ -65,9 +67,9 @@ body {
   }
   
   .right-panel button {
-    background-color:rgb(205, 235, 255);
+    background-color:rgb(255, 211, 210);
   }
   
   button:hover {
-    background-color: #c9c9c9;
+    background-color: #ffa9a9;
   }
