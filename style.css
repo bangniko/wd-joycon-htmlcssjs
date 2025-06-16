@@ -1,6 +1,7 @@
+
 body {
     font-family: sans-serif;
-    background: #f4f4f4;
+    background: #b6e4ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +31,7 @@ body {
   }
   
   .left-panel, .right-panel {
-    background: rgb(255, 255, 255);
+    background: white;
     padding: 20px;
     border-radius: 15px;
     display: flex;
@@ -53,7 +54,7 @@ body {
     margin: 5px;
     border: none;
     border-radius: 10px;
-    background-color: #eee;
+    background-color: #dadada;
     box-shadow: 2px 2px 4px #aaa;
     cursor: pointer;
     font-size: 16px;
@@ -64,7 +65,7 @@ body {
   }
   
   .right-panel button {
-    background-color: #ffafaf;
+    background-color:rgb(205, 235, 255);
   }
   
   button:hover {
